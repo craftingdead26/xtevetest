@@ -11,11 +11,11 @@ use_TVH_move="no"
 
 ### xTeve ip, Port in case API is used to update XEPG
 xTeveIP="192.168.1.2"
-xTevePORT="34400"
+xTevePORT="34401"
 
 ### setup rewrite rule für Reverse Proxy https xml usage
 # the rewritten url will be then http://yourxtevedomain.de/xmltv/xteverp.xml
-xtevelocal="http://192.168.1.2:34400"
+xtevelocal="http://192.168.1.2:34401"
 xteveRP="https://xteve.mydomain.de"
 xtevelocalfile="/root/.xteve/data/xteve.xml"
 xteveRPfile="/root/.xteve/data/xteverp.xml"
